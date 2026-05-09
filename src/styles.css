@@ -1,3 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import 'tailwindcss';
+
+@font-face {
+  font-family: 'Mont';
+  src: url('/fonts/Mont-Heavy.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: block;
+  font-family: 'Mont';
+  height: 100dvh;
+  background-color: aqua;
+}
